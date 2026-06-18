@@ -1,0 +1,40 @@
+description: Ultralytics YOLO26m model trained on RecipeData\data.yaml
+author: Ultralytics
+date: '2026-06-09T00:03:56.999869'
+version: 8.4.54
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Beef
+  1: BitterGourd
+  2: BottleGourd
+  3: Broccoli
+  4: Cabbage
+  5: Carrots
+  6: Cauliflower
+  7: Chicken
+  8: Egg
+  9: Eggplant
+  10: Galunggong
+  11: Garlic
+  12: Ginger
+  13: Milkfish
+  14: Onion
+  15: Papaya
+  16: Pork
+  17: Potato
+  18: Pumpkin
+  19: Sayote
+  20: Tilapia
+  21: Tomato
+args:
+  batch: 1
+  half: false
+channels: 3
+end2end: false
